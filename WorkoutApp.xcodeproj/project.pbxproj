@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4633FF0229C754FB0024613F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4633FF0129C754FB0024613F /* Extensions.swift */; };
 		467E8F7329BF671B00E76836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E8F7229BF671B00E76836 /* AppDelegate.swift */; };
 		467E8F7529BF671B00E76836 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E8F7429BF671B00E76836 /* SceneDelegate.swift */; };
 		467E8F7729BF671B00E76836 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E8F7629BF671B00E76836 /* FirstScreen.swift */; };
@@ -15,6 +16,7 @@
 		467E8F8A29BF672700E76836 /* WorkoutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E8F8929BF672700E76836 /* WorkoutAppTests.swift */; };
 		467E8F9429BF672800E76836 /* WorkoutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E8F9329BF672800E76836 /* WorkoutAppUITests.swift */; };
 		467E8F9629BF672800E76836 /* WorkoutAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E8F9529BF672800E76836 /* WorkoutAppUITestsLaunchTests.swift */; };
+		46B1726329C09A4F00DFCA75 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1726229C09A4F00DFCA75 /* LoginScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4633FF0129C754FB0024613F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		467E8F6F29BF671A00E76836 /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		467E8F7229BF671B00E76836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		467E8F7429BF671B00E76836 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		467E8F8F29BF672800E76836 /* WorkoutAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		467E8F9329BF672800E76836 /* WorkoutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppUITests.swift; sourceTree = "<group>"; };
 		467E8F9529BF672800E76836 /* WorkoutAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46B1726229C09A4F00DFCA75 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				467E8F7229BF671B00E76836 /* AppDelegate.swift */,
 				467E8F7429BF671B00E76836 /* SceneDelegate.swift */,
 				467E8F7629BF671B00E76836 /* FirstScreen.swift */,
+				46B1726229C09A4F00DFCA75 /* LoginScreen.swift */,
 				467E8F7B29BF672400E76836 /* Assets.xcassets */,
 				467E8F7D29BF672500E76836 /* LaunchScreen.storyboard */,
 				467E8F8029BF672500E76836 /* Info.plist */,
+				4633FF0129C754FB0024613F /* Extensions.swift */,
 			);
 			path = WorkoutApp;
 			sourceTree = "<group>";
@@ -254,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4633FF0229C754FB0024613F /* Extensions.swift in Sources */,
 				467E8F7729BF671B00E76836 /* FirstScreen.swift in Sources */,
+				46B1726329C09A4F00DFCA75 /* LoginScreen.swift in Sources */,
 				467E8F7329BF671B00E76836 /* AppDelegate.swift in Sources */,
 				467E8F7529BF671B00E76836 /* SceneDelegate.swift in Sources */,
 			);

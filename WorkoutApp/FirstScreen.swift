@@ -9,7 +9,7 @@ import UIKit
 
 class FirstScreen: UIViewController {
     
-    let StartButton = UIButton()
+    let  StartButton = UIButton ()
     
     let ImageView: UIImageView = {
         let NewImageView = UIImageView()
@@ -26,7 +26,7 @@ class FirstScreen: UIViewController {
         view.addSubview(StartButton)
         ImageViewConstraints()
         setStartButton()
-        
+
     }
     
     func ImageViewConstraints(){
@@ -39,12 +39,12 @@ class FirstScreen: UIViewController {
     func setStartButton(){
         
         StartButton.configuration = .filled()
-        StartButton.configuration?.baseBackgroundColor = .systemGreen
-        StartButton.configuration?.title = "Get Started"
+        self.StartButton.configuration?.baseBackgroundColor = UIColor.AppColor
+      
+        StartButton.setAttributedTitle(customButton, for: .normal)
+        StartButton.addTarget(self, action: #selector(goToLoginScreen), for: .touchUpInside)
     
-        
         StartButton.translatesAutoresizingMaskIntoConstraints = false
-        
         NSLayoutConstraint.activate([
             StartButton.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 120),
             StartButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -54,7 +54,19 @@ class FirstScreen: UIViewController {
         
         
     }
-
+    
+    let customButton = NSMutableAttributedString(string: "Get Started", attributes: [
+        NSAttributedString.Key.foregroundColor : UIColor.black,
+        NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 20)
+        
+    ])
+    
+    
+    
+    @objc func goToLoginScreen (){
+        let loginScreen = LoginScreen()
+        navigationController?.pushViewController(loginScreen, animated:true)
+    }
 
 }
 
