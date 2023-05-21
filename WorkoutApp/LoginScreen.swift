@@ -19,7 +19,7 @@ class LoginScreen: UIViewController {
     }
     
     func setTitleLabel(){
-        titleLabel.text = "register"
+        titleLabel.text = "Ridmi"
         titleLabel.textAlignment = .center
         
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
